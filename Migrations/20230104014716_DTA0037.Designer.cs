@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DangThiAnh037.Migrations
 {
     [DbContext(typeof(ApplicationDbcontext))]
-    [Migration("20230104013010_DTA0037")]
+    [Migration("20230104014716_DTA0037")]
     partial class DTA0037
     {
         /// <inheritdoc />
@@ -39,10 +39,11 @@ namespace DangThiAnh037.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("DTAGender")
-                        .HasColumnType("TEXT");
+                    b.Property<bool>("DTAGender")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("DTAName")
+                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("TEXT");
 

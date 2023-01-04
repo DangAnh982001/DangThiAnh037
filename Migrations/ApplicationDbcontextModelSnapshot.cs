@@ -36,10 +36,11 @@ namespace DangThiAnh037.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("DTAGender")
-                        .HasColumnType("TEXT");
+                    b.Property<bool>("DTAGender")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("DTAName")
+                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
