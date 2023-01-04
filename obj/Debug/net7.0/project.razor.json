@@ -16560,6 +16560,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\PTPM\\DangThiAnh037\\Views\\DTA0037\\Details.cshtml",
+      "TargetPath": "Views\\DTA0037\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\PTPM\\DangThiAnh037\\Views\\CompanyDTA037\\Edit.cshtml",
       "TargetPath": "Views\\CompanyDTA037\\Edit.cshtml",
       "FileKind": "mvc"
@@ -16600,8 +16605,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\PTPM\\DangThiAnh037\\Views\\DTA0037\\Create.cshtml",
+      "TargetPath": "Views\\DTA0037\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\PTPM\\DangThiAnh037\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PTPM\\DangThiAnh037\\Views\\DTA0037\\Index.cshtml",
+      "TargetPath": "Views\\DTA0037\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16610,8 +16625,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\PTPM\\DangThiAnh037\\Views\\DTA0037\\Delete.cshtml",
+      "TargetPath": "Views\\DTA0037\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\PTPM\\DangThiAnh037\\Views\\CompanyDTA037\\Index.cshtml",
       "TargetPath": "Views\\CompanyDTA037\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PTPM\\DangThiAnh037\\Views\\DTA0037\\Edit.cshtml",
+      "TargetPath": "Views\\DTA0037\\Edit.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -1,0 +1,43 @@
+@model DangThiAnh037.Models.DTA0037
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>DTA0037</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DTAId" class="control-label"></label>
+                <input asp-for="DTAId" class="form-control" />
+                <span asp-validation-for="DTAId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DTAName" class="control-label"></label>
+                <input asp-for="DTAName" class="form-control" />
+                <span asp-validation-for="DTAName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DTAGender" class="control-label"></label>
+                <input asp-for="DTAGender" class="form-control" />
+                <span asp-validation-for="DTAGender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

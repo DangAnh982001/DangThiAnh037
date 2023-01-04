@@ -13,4 +13,6 @@ using DangThiAnh037.Models;
         }
 
         public DbSet<DangThiAnh037.Models.CompanyDTA037> CompanyDTA037 { get; set; } = default!;
+
+        public DbSet<DangThiAnh037.Models.DTA0037> DTA0037 { get; set; } = default!;
     }
